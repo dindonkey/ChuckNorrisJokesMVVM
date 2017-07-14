@@ -7,14 +7,13 @@ class JokesViewController: UIViewController {
     @IBOutlet weak var jokesTableView: UITableView!
     
     let disposeBag = DisposeBag()
-    var jokes = Variable<[String]>(["one","two"])
+    var jokesViewModel = JokesViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        jokes
-            .asObservable()
-            .bind(to: jokesTableView.rx.items(cellIdentifier: "JokeCell")) { (_, joke, cell) in
+        jokesViewModel.jokes
+            .drive(jokesTableView.rx.items(cellIdentifier: "JokeCell")){ (_, joke, cell) in
                 cell.textLabel?.text = joke
             }
             .addDisposableTo(disposeBag)
@@ -23,7 +22,6 @@ class JokesViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
 
 }
 
