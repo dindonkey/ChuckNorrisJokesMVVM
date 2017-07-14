@@ -1,0 +1,6 @@
+framework module Pods_ChuckNorrisJokesMVVMUITests {
+  umbrella header "Pods-ChuckNorrisJokesMVVMUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
