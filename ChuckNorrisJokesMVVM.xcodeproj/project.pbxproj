@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BDE0EBAF74A88129E71DC429 /* Pods_ChuckNorrisJokesMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A085385BBCDAEFAAFF09F73 /* Pods_ChuckNorrisJokesMVVM.framework */; };
-		F1E9C9BC5D38692F1B734B03 /* Pods_ChuckNorrisJokesMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED870366AB15B1DE9FDA4850 /* Pods_ChuckNorrisJokesMVVMTests.framework */; };
 		F7ADAA5F1F1796D900F95520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA5E1F1796D900F95520 /* AppDelegate.swift */; };
 		F7ADAA611F1796D900F95520 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA601F1796D900F95520 /* JokesViewController.swift */; };
 		F7ADAA641F1796D900F95520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ADAA621F1796D900F95520 /* Main.storyboard */; };
@@ -16,7 +14,6 @@
 		F7ADAA691F1796D900F95520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ADAA671F1796D900F95520 /* LaunchScreen.storyboard */; };
 		F7ADAA741F1796D900F95520 /* ChuckNorrisJokesMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA731F1796D900F95520 /* ChuckNorrisJokesMVVMTests.swift */; };
 		F7ADAA7F1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA7E1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests.swift */; };
-		FDFEC3B52498B9AD6C424E50 /* Pods_ChuckNorrisJokesMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655702A88F8623E21C67EF40 /* Pods_ChuckNorrisJokesMVVMUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +38,8 @@
 		1473DEE23882261F588316EA /* Pods-ChuckNorrisJokesMVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokesMVVMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisJokesMVVMUITests/Pods-ChuckNorrisJokesMVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2DDD7F8C54D24AFD670963D2 /* Pods-ChuckNorrisJokesMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokesMVVMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisJokesMVVMTests/Pods-ChuckNorrisJokesMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
 		2F8CDFD7865CEA4ABC263493 /* Pods-ChuckNorrisJokesMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokesMVVMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisJokesMVVMTests/Pods-ChuckNorrisJokesMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5A085385BBCDAEFAAFF09F73 /* Pods_ChuckNorrisJokesMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckNorrisJokesMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		655702A88F8623E21C67EF40 /* Pods_ChuckNorrisJokesMVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckNorrisJokesMVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7608F3082E33905388033BC6 /* Pods-ChuckNorrisJokesMVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokesMVVMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisJokesMVVMUITests/Pods-ChuckNorrisJokesMVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B3DEDF605FCCA56573F05934 /* Pods-ChuckNorrisJokesMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokesMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisJokesMVVM/Pods-ChuckNorrisJokesMVVM.release.xcconfig"; sourceTree = "<group>"; };
-		ED870366AB15B1DE9FDA4850 /* Pods_ChuckNorrisJokesMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckNorrisJokesMVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ADAA5B1F1796D900F95520 /* ChuckNorrisJokesMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorrisJokesMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ADAA5E1F1796D900F95520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7ADAA601F1796D900F95520 /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDE0EBAF74A88129E71DC429 /* Pods_ChuckNorrisJokesMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1E9C9BC5D38692F1B734B03 /* Pods_ChuckNorrisJokesMVVMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,23 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDFEC3B52498B9AD6C424E50 /* Pods_ChuckNorrisJokesMVVMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F59B01C155FA33FAE072564 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5A085385BBCDAEFAAFF09F73 /* Pods_ChuckNorrisJokesMVVM.framework */,
-				ED870366AB15B1DE9FDA4850 /* Pods_ChuckNorrisJokesMVVMTests.framework */,
-				655702A88F8623E21C67EF40 /* Pods_ChuckNorrisJokesMVVMUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		2E4F10D70D7B0E3B4E29C8D5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,7 +99,6 @@
 				F7ADAA5D1F1796D900F95520 /* ChuckNorrisJokesMVVM */,
 				F7ADAA721F1796D900F95520 /* ChuckNorrisJokesMVVMTests */,
 				F7ADAA7D1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests */,
-				1F59B01C155FA33FAE072564 /* Frameworks */,
 				2E4F10D70D7B0E3B4E29C8D5 /* Pods */,
 				F7ADAA5C1F1796D900F95520 /* Products */,
 			);
