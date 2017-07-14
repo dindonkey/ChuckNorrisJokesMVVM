@@ -4,9 +4,9 @@ import RxCocoa
 
 class JokesViewModel {
     
-    let jokes: Driver<[String]>!
+    let jokes: Driver<[Joke]>!
     
     init() {
-        jokes = Observable.just(["one","two","three"]).asDriver(onErrorJustReturn: ["error"])
+        jokes = Observable.just([Joke("one"),Joke("two"),Joke("three")]).asDriver(onErrorJustReturn: [Joke("error")])
     }
 }

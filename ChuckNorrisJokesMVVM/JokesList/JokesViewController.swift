@@ -14,7 +14,7 @@ class JokesViewController: UIViewController {
         
         jokesViewModel.jokes
             .drive(jokesTableView.rx.items(cellIdentifier: "JokeCell")){ (_, joke, cell) in
-                cell.textLabel?.text = joke
+                cell.textLabel?.text = joke.joke
             }
             .addDisposableTo(disposeBag)
     }

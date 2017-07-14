@@ -15,6 +15,7 @@
 		F7ADAA741F1796D900F95520 /* ChuckNorrisJokesMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA731F1796D900F95520 /* ChuckNorrisJokesMVVMTests.swift */; };
 		F7ADAA7F1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA7E1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests.swift */; };
 		F7E5BF131F18F30F0024562F /* JokesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5BF121F18F30F0024562F /* JokesViewModel.swift */; };
+		F7E5BF151F191CEA0024562F /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5BF141F191CEA0024562F /* Joke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F7ADAA7E1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisJokesMVVMUITests.swift; sourceTree = "<group>"; };
 		F7ADAA801F1796D900F95520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7E5BF121F18F30F0024562F /* JokesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesViewModel.swift; sourceTree = "<group>"; };
+		F7E5BF141F191CEA0024562F /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			children = (
 				F7ADAA601F1796D900F95520 /* JokesViewController.swift */,
 				F7E5BF121F18F30F0024562F /* JokesViewModel.swift */,
+				F7E5BF141F191CEA0024562F /* Joke.swift */,
 			);
 			path = JokesList;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 			files = (
 				F7ADAA611F1796D900F95520 /* JokesViewController.swift in Sources */,
 				F7ADAA5F1F1796D900F95520 /* AppDelegate.swift in Sources */,
+				F7E5BF151F191CEA0024562F /* Joke.swift in Sources */,
 				F7E5BF131F18F30F0024562F /* JokesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
