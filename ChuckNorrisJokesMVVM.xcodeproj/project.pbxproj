@@ -118,9 +118,9 @@
 				F7ADAA5D1F1796D900F95520 /* ChuckNorrisJokesMVVM */,
 				F7ADAA721F1796D900F95520 /* ChuckNorrisJokesMVVMTests */,
 				F7ADAA7D1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests */,
-				F7ADAA5C1F1796D900F95520 /* Products */,
-				2E4F10D70D7B0E3B4E29C8D5 /* Pods */,
 				1F59B01C155FA33FAE072564 /* Frameworks */,
+				2E4F10D70D7B0E3B4E29C8D5 /* Pods */,
+				F7ADAA5C1F1796D900F95520 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,11 +138,11 @@
 			isa = PBXGroup;
 			children = (
 				F7ADAA5E1F1796D900F95520 /* AppDelegate.swift */,
-				F7ADAA601F1796D900F95520 /* ViewController.swift */,
-				F7ADAA621F1796D900F95520 /* Main.storyboard */,
 				F7ADAA651F1796D900F95520 /* Assets.xcassets */,
-				F7ADAA671F1796D900F95520 /* LaunchScreen.storyboard */,
 				F7ADAA6A1F1796D900F95520 /* Info.plist */,
+				F7ADAA671F1796D900F95520 /* LaunchScreen.storyboard */,
+				F7ADAA621F1796D900F95520 /* Main.storyboard */,
+				F7ADAA601F1796D900F95520 /* ViewController.swift */,
 			);
 			path = ChuckNorrisJokesMVVM;
 			sourceTree = "<group>";
@@ -489,6 +489,7 @@
 				F7ADAA631F1796D900F95520 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		F7ADAA671F1796D900F95520 /* LaunchScreen.storyboard */ = {
@@ -497,6 +498,7 @@
 				F7ADAA681F1796D900F95520 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
