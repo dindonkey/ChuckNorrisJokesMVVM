@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5908FDE674CB257C2D7E04CA /* Pods_ChuckNorrisJokesMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFF1B0553838D3DF2583F34 /* Pods_ChuckNorrisJokesMVVM.framework */; };
+		9F5E28CC47FC50335AB11314 /* Pods_ChuckNorrisJokesMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028023A125EB5C4935A9F965 /* Pods_ChuckNorrisJokesMVVMTests.framework */; };
+		D0AFABF108C12C33CD6618E6 /* Pods_ChuckNorrisJokesMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8675E76E8CE706486C5389E3 /* Pods_ChuckNorrisJokesMVVMUITests.framework */; };
 		F7ADAA5F1F1796D900F95520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA5E1F1796D900F95520 /* AppDelegate.swift */; };
 		F7ADAA611F1796D900F95520 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA601F1796D900F95520 /* JokesViewController.swift */; };
 		F7ADAA641F1796D900F95520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ADAA621F1796D900F95520 /* Main.storyboard */; };
@@ -37,10 +40,13 @@
 
 /* Begin PBXFileReference section */
 		0250B607BD280A0A42D01271 /* Pods-ChuckNorrisJokesMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokesMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisJokesMVVM/Pods-ChuckNorrisJokesMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		028023A125EB5C4935A9F965 /* Pods_ChuckNorrisJokesMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckNorrisJokesMVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1473DEE23882261F588316EA /* Pods-ChuckNorrisJokesMVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokesMVVMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisJokesMVVMUITests/Pods-ChuckNorrisJokesMVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2DDD7F8C54D24AFD670963D2 /* Pods-ChuckNorrisJokesMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokesMVVMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisJokesMVVMTests/Pods-ChuckNorrisJokesMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		2DFF1B0553838D3DF2583F34 /* Pods_ChuckNorrisJokesMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckNorrisJokesMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8CDFD7865CEA4ABC263493 /* Pods-ChuckNorrisJokesMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokesMVVMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisJokesMVVMTests/Pods-ChuckNorrisJokesMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7608F3082E33905388033BC6 /* Pods-ChuckNorrisJokesMVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokesMVVMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisJokesMVVMUITests/Pods-ChuckNorrisJokesMVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8675E76E8CE706486C5389E3 /* Pods_ChuckNorrisJokesMVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckNorrisJokesMVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DEDF605FCCA56573F05934 /* Pods-ChuckNorrisJokesMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokesMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisJokesMVVM/Pods-ChuckNorrisJokesMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		F7ADAA5B1F1796D900F95520 /* ChuckNorrisJokesMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorrisJokesMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ADAA5E1F1796D900F95520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5908FDE674CB257C2D7E04CA /* Pods_ChuckNorrisJokesMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F5E28CC47FC50335AB11314 /* Pods_ChuckNorrisJokesMVVMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0AFABF108C12C33CD6618E6 /* Pods_ChuckNorrisJokesMVVMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +106,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DD4D5511614087A5B199A18D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF1B0553838D3DF2583F34 /* Pods_ChuckNorrisJokesMVVM.framework */,
+				028023A125EB5C4935A9F965 /* Pods_ChuckNorrisJokesMVVMTests.framework */,
+				8675E76E8CE706486C5389E3 /* Pods_ChuckNorrisJokesMVVMUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F7ADAA521F1796D900F95520 = {
 			isa = PBXGroup;
 			children = (
 				F7ADAA5D1F1796D900F95520 /* ChuckNorrisJokesMVVM */,
 				F7ADAA721F1796D900F95520 /* ChuckNorrisJokesMVVMTests */,
 				F7ADAA7D1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests */,
+				DD4D5511614087A5B199A18D /* Frameworks */,
 				2E4F10D70D7B0E3B4E29C8D5 /* Pods */,
 				F7ADAA5C1F1796D900F95520 /* Products */,
 			);
@@ -152,9 +172,9 @@
 		F7E5BF111F1892670024562F /* JokesList */ = {
 			isa = PBXGroup;
 			children = (
+				F7E5BF141F191CEA0024562F /* Joke.swift */,
 				F7ADAA601F1796D900F95520 /* JokesViewController.swift */,
 				F7E5BF121F18F30F0024562F /* JokesViewModel.swift */,
-				F7E5BF141F191CEA0024562F /* Joke.swift */,
 			);
 			path = JokesList;
 			sourceTree = "<group>";

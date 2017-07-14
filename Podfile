@@ -6,6 +6,8 @@ target 'ChuckNorrisJokesMVVM' do
     
     pod 'RxSwift'
     pod 'RxCocoa'
+    pod 'Moya/RxSwift'
+    pod 'Moya-ModelMapper/RxSwift'
     
     target 'ChuckNorrisJokesMVVMTests' do
         inherit! :search_paths
