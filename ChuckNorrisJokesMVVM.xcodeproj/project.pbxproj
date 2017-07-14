@@ -48,7 +48,7 @@
 		ED870366AB15B1DE9FDA4850 /* Pods_ChuckNorrisJokesMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckNorrisJokesMVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ADAA5B1F1796D900F95520 /* ChuckNorrisJokesMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorrisJokesMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ADAA5E1F1796D900F95520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7ADAA601F1796D900F95520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7ADAA601F1796D900F95520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7ADAA631F1796D900F95520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7ADAA651F1796D900F95520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7ADAA681F1796D900F95520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -137,12 +137,12 @@
 		F7ADAA5D1F1796D900F95520 /* ChuckNorrisJokesMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				F7E5BF111F1892670024562F /* JokesList */,
 				F7ADAA5E1F1796D900F95520 /* AppDelegate.swift */,
 				F7ADAA651F1796D900F95520 /* Assets.xcassets */,
 				F7ADAA6A1F1796D900F95520 /* Info.plist */,
 				F7ADAA671F1796D900F95520 /* LaunchScreen.storyboard */,
 				F7ADAA621F1796D900F95520 /* Main.storyboard */,
-				F7ADAA601F1796D900F95520 /* ViewController.swift */,
 			);
 			path = ChuckNorrisJokesMVVM;
 			sourceTree = "<group>";
@@ -163,6 +163,14 @@
 				F7ADAA801F1796D900F95520 /* Info.plist */,
 			);
 			path = ChuckNorrisJokesMVVMUITests;
+			sourceTree = "<group>";
+		};
+		F7E5BF111F1892670024562F /* JokesList */ = {
+			isa = PBXGroup;
+			children = (
+				F7ADAA601F1796D900F95520 /* ViewController.swift */,
+			);
+			path = JokesList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -702,6 +710,7 @@
 				F7ADAA851F1796D900F95520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7ADAA861F1796D900F95520 /* Build configuration list for PBXNativeTarget "ChuckNorrisJokesMVVMTests" */ = {
 			isa = XCConfigurationList;
@@ -710,6 +719,7 @@
 				F7ADAA881F1796D900F95520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7ADAA891F1796D900F95520 /* Build configuration list for PBXNativeTarget "ChuckNorrisJokesMVVMUITests" */ = {
 			isa = XCConfigurationList;
@@ -718,6 +728,7 @@
 				F7ADAA8B1F1796D900F95520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
