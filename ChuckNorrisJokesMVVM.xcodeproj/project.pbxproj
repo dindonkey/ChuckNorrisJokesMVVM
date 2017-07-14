@@ -10,7 +10,7 @@
 		BDE0EBAF74A88129E71DC429 /* Pods_ChuckNorrisJokesMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A085385BBCDAEFAAFF09F73 /* Pods_ChuckNorrisJokesMVVM.framework */; };
 		F1E9C9BC5D38692F1B734B03 /* Pods_ChuckNorrisJokesMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED870366AB15B1DE9FDA4850 /* Pods_ChuckNorrisJokesMVVMTests.framework */; };
 		F7ADAA5F1F1796D900F95520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA5E1F1796D900F95520 /* AppDelegate.swift */; };
-		F7ADAA611F1796D900F95520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA601F1796D900F95520 /* ViewController.swift */; };
+		F7ADAA611F1796D900F95520 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA601F1796D900F95520 /* JokesViewController.swift */; };
 		F7ADAA641F1796D900F95520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ADAA621F1796D900F95520 /* Main.storyboard */; };
 		F7ADAA661F1796D900F95520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ADAA651F1796D900F95520 /* Assets.xcassets */; };
 		F7ADAA691F1796D900F95520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ADAA671F1796D900F95520 /* LaunchScreen.storyboard */; };
@@ -48,7 +48,7 @@
 		ED870366AB15B1DE9FDA4850 /* Pods_ChuckNorrisJokesMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckNorrisJokesMVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ADAA5B1F1796D900F95520 /* ChuckNorrisJokesMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorrisJokesMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ADAA5E1F1796D900F95520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7ADAA601F1796D900F95520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7ADAA601F1796D900F95520 /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
 		F7ADAA631F1796D900F95520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7ADAA651F1796D900F95520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7ADAA681F1796D900F95520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -168,7 +168,7 @@
 		F7E5BF111F1892670024562F /* JokesList */ = {
 			isa = PBXGroup;
 			children = (
-				F7ADAA601F1796D900F95520 /* ViewController.swift */,
+				F7ADAA601F1796D900F95520 /* JokesViewController.swift */,
 			);
 			path = JokesList;
 			sourceTree = "<group>";
@@ -454,7 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7ADAA611F1796D900F95520 /* ViewController.swift in Sources */,
+				F7ADAA611F1796D900F95520 /* JokesViewController.swift in Sources */,
 				F7ADAA5F1F1796D900F95520 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
