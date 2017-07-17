@@ -19,6 +19,7 @@
 		F7ADAA7F1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA7E1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests.swift */; };
 		F7E5BF131F18F30F0024562F /* JokesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5BF121F18F30F0024562F /* JokesViewModel.swift */; };
 		F7E5BF151F191CEA0024562F /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5BF141F191CEA0024562F /* Joke.swift */; };
+		F7E5BF171F191F310024562F /* JokesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5BF161F191F310024562F /* JokesService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F7ADAA801F1796D900F95520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7E5BF121F18F30F0024562F /* JokesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesViewModel.swift; sourceTree = "<group>"; };
 		F7E5BF141F191CEA0024562F /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		F7E5BF161F191F310024562F /* JokesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				F7E5BF141F191CEA0024562F /* Joke.swift */,
 				F7ADAA601F1796D900F95520 /* JokesViewController.swift */,
 				F7E5BF121F18F30F0024562F /* JokesViewModel.swift */,
+				F7E5BF161F191F310024562F /* JokesService.swift */,
 			);
 			path = JokesList;
 			sourceTree = "<group>";
@@ -464,6 +467,7 @@
 				F7ADAA5F1F1796D900F95520 /* AppDelegate.swift in Sources */,
 				F7E5BF151F191CEA0024562F /* Joke.swift in Sources */,
 				F7E5BF131F18F30F0024562F /* JokesViewModel.swift in Sources */,
+				F7E5BF171F191F310024562F /* JokesService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
