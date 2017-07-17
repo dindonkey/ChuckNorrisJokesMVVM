@@ -1,16 +1,22 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import Moya
 
 class JokesViewController: UIViewController {
-
+    
     @IBOutlet weak var jokesTableView: UITableView!
     
     let disposeBag = DisposeBag()
-    var jokesViewModel = JokesViewModel()
+    var jokesProvider: RxMoyaProvider<JokesService>!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        initViewModelAndBindings()
+    }
+    
+    func initViewModelAndBindings() {
+        let jokesViewModel = JokesViewModel(jokesProvider)
         
         jokesViewModel.jokes
             .drive(jokesTableView.rx.items(cellIdentifier: "JokeCell")){ (_, joke, cell) in
@@ -18,10 +24,10 @@ class JokesViewController: UIViewController {
             }
             .addDisposableTo(disposeBag)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
+    
 }
 
