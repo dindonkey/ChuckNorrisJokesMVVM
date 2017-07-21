@@ -11,7 +11,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let navigationController = window?.rootViewController as? UINavigationController,
             let jokesViewController = navigationController.viewControllers.first as? JokesViewController else { fatalError("Not a JokesViewController ?!?") }
         
-        jokesViewController.jokesProvider = RxMoyaProvider<JokesService>()
+        jokesViewController.jokesProvider = RxMoyaProvider<JokesService>(stubClosure: MoyaProvider.immediatelyStub)
         
         return true
     }

@@ -30,15 +30,18 @@ extension JokesService: TargetType {
     var sampleData: Data {
         switch self {
         case .random:
-            guard let url = Bundle.main.url(forResource: "jokes", withExtension: "json"),
-                let data = try? Data(contentsOf: url) else {
-                    return Data()
-            }
-            return data
+            return stubbedJson("jokes")
         }
     }
     
     var task: Task {
         return .request
+    }
+}
+
+extension TargetType {
+    func stubbedJson(_ filename: String) -> Data! {
+        let url = Bundle.main.url(forResource: filename, withExtension: "json")
+        return (try? Data(contentsOf: url!))
     }
 }
