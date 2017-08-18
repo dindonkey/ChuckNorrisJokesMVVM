@@ -11,12 +11,12 @@ class JokesViewModel {
     init(jokesProvider: RxMoyaProvider<JokesService>, refreshDriver: Driver<Void>) {
         jokes =
             refreshDriver
+                .startWith(())
                 .flatMap { _ in
-                jokesProvider
-                    .request(.random(numJokes: 5))
-                    .mapArray(type: Joke.self, keyPath: "value")
-                    .asDriver(onErrorJustReturn: [Joke("error")])
-        }
+                    jokesProvider
+                        .request(.random(numJokes: 5))
+                        .mapArray(type: Joke.self, keyPath: "value")
+                        .asDriver(onErrorJustReturn: [Joke("error")]) }
         
     }
 }

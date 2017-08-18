@@ -9,7 +9,7 @@ class JokesViewController: UIViewController {
     
     let disposeBag = DisposeBag()
     let refreshControl = UIRefreshControl()
-    var didPullToRefresh: Observable<Void>!
+    var didPullToRefresh: Driver<Void>!
     
     var jokesProvider: RxMoyaProvider<JokesService>!
     
@@ -24,12 +24,13 @@ class JokesViewController: UIViewController {
             }
             .filter { $0 == true }
             .map { _ in return () }
+            .asDriver(onErrorJustReturn: ())
         
         initViewModelAndBindings()
     }
     
     func initViewModelAndBindings() {
-        let jokesViewModel = JokesViewModel(jokesProvider: jokesProvider, refreshDriver: didPullToRefresh.asDriver(onErrorJustReturn: ()))
+        let jokesViewModel = JokesViewModel(jokesProvider: jokesProvider, refreshDriver: didPullToRefresh)
         
         jokesViewModel.jokes
             .do(onNext: { [refreshControl] _ in
