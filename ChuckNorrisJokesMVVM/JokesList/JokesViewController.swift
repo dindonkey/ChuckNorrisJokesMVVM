@@ -16,7 +16,10 @@ class JokesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        jokesTableView.refreshControl = refreshControl
+        setupViewModel()
+    }
+    
+    func setupViewModel() {
         
         didPullToRefresh =  refreshControl.rx.controlEvent(.valueChanged)
             .map { [refreshControl] in
@@ -26,12 +29,9 @@ class JokesViewController: UIViewController {
             .map { _ in return () }
             .asDriver(onErrorJustReturn: ())
         
-        initViewModelAndBindings()
-    }
-    
-    func initViewModelAndBindings() {
         let jokesViewModel = JokesViewModel(jokesProvider: jokesProvider, refreshDriver: didPullToRefresh)
         
+        jokesTableView.refreshControl = refreshControl
         jokesViewModel.jokes
             .do(onNext: { [refreshControl] _ in
                 refreshControl.endRefreshing()
@@ -40,6 +40,7 @@ class JokesViewController: UIViewController {
                 cell.textLabel?.text = joke.joke
             }
             .addDisposableTo(disposeBag)
+        
     }
     
     override func didReceiveMemoryWarning() {
