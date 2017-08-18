@@ -33,6 +33,9 @@ class JokesViewController: UIViewController {
         
         jokesTableView.refreshControl = refreshControl
         jokesViewModel.jokes
+            .do(onSubscribe: { [refreshControl] _ in
+                refreshControl.beginRefreshingManually()
+            })
             .do(onNext: { [refreshControl] _ in
                 refreshControl.endRefreshing()
             })
@@ -47,5 +50,14 @@ class JokesViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+}
+
+extension UIRefreshControl {
+    func beginRefreshingManually() {
+        if let scrollView = superview as? UIScrollView {
+            scrollView.setContentOffset(CGPoint(x: 0, y: scrollView.contentOffset.y - frame.height), animated: true)
+        }
+        beginRefreshing()
+    }
 }
 
