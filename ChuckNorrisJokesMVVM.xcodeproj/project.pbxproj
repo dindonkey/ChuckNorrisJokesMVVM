@@ -19,6 +19,7 @@
 		F7ADAA691F1796D900F95520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ADAA671F1796D900F95520 /* LaunchScreen.storyboard */; };
 		F7ADAA741F1796D900F95520 /* ChuckNorrisJokesMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA731F1796D900F95520 /* ChuckNorrisJokesMVVMTests.swift */; };
 		F7ADAA7F1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA7E1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests.swift */; };
+		F7ADB4921F55925700AC469B /* JokeCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADB4911F55925700AC469B /* JokeCellTableViewCell.swift */; };
 		F7E5BF131F18F30F0024562F /* JokesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5BF121F18F30F0024562F /* JokesViewModel.swift */; };
 		F7E5BF151F191CEA0024562F /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5BF141F191CEA0024562F /* Joke.swift */; };
 		F7E5BF171F191F310024562F /* JokesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5BF161F191F310024562F /* JokesService.swift */; };
@@ -65,6 +66,7 @@
 		F7ADAA7A1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuckNorrisJokesMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ADAA7E1F1796D900F95520 /* ChuckNorrisJokesMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisJokesMVVMUITests.swift; sourceTree = "<group>"; };
 		F7ADAA801F1796D900F95520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7ADB4911F55925700AC469B /* JokeCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeCellTableViewCell.swift; sourceTree = "<group>"; };
 		F7E5BF121F18F30F0024562F /* JokesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesViewModel.swift; sourceTree = "<group>"; };
 		F7E5BF141F191CEA0024562F /* Joke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		F7E5BF161F191F310024562F /* JokesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesService.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				F7E5BF161F191F310024562F /* JokesService.swift */,
 				F7ADAA601F1796D900F95520 /* JokesViewController.swift */,
 				F7E5BF121F18F30F0024562F /* JokesViewModel.swift */,
+				F7ADB4911F55925700AC469B /* JokeCellTableViewCell.swift */,
 			);
 			path = JokesList;
 			sourceTree = "<group>";
@@ -481,6 +484,7 @@
 				F7ADAA5F1F1796D900F95520 /* AppDelegate.swift in Sources */,
 				F7E5BF151F191CEA0024562F /* Joke.swift in Sources */,
 				F7E5BF131F18F30F0024562F /* JokesViewModel.swift in Sources */,
+				F7ADB4921F55925700AC469B /* JokeCellTableViewCell.swift in Sources */,
 				F7E5BF171F191F310024562F /* JokesService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

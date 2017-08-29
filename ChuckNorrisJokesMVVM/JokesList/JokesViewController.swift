@@ -39,8 +39,8 @@ class JokesViewController: UIViewController {
             .do(onNext: { [refreshControl] _ in
                 refreshControl.endRefreshing()
             })
-            .drive(jokesTableView.rx.items(cellIdentifier: "JokeCell")){ (_, joke, cell) in
-                cell.textLabel?.text = joke.joke
+            .drive(jokesTableView.rx.items(cellIdentifier: "JokeCell", cellType: JokeCellTableViewCell.self)){ (_, joke, cell) in
+                cell.jokeText.text = joke.joke
             }
             .addDisposableTo(disposeBag)
         
