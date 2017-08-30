@@ -1,6 +1,6 @@
 import UIKit
 
-class JokeCellTableViewCell: UITableViewCell {
+class JokeTableViewCell: UITableViewCell {
 
     @IBOutlet weak var jokeText: UILabel!
     override func awakeFromNib() {

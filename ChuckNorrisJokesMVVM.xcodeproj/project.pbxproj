@@ -189,10 +189,10 @@
 			isa = PBXGroup;
 			children = (
 				F7E5BF141F191CEA0024562F /* Joke.swift */,
+				F7ADB4911F55925700AC469B /* JokeCellTableViewCell.swift */,
 				F7E5BF161F191F310024562F /* JokesService.swift */,
 				F7ADAA601F1796D900F95520 /* JokesViewController.swift */,
 				F7E5BF121F18F30F0024562F /* JokesViewModel.swift */,
-				F7ADB4911F55925700AC469B /* JokeCellTableViewCell.swift */,
 			);
 			path = JokesList;
 			sourceTree = "<group>";
