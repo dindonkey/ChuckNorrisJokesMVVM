@@ -47,6 +47,14 @@ class JokesViewController: UIViewController {
             }
             .addDisposableTo(disposeBag)
         
+        jokesTableView.rx
+            .modelSelected(Joke.self)
+            .subscribe(onNext:  { value in
+                self.performSegue(withIdentifier: "openJokeDetail", sender: self)
+            })
+            .disposed(by: disposeBag)
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
