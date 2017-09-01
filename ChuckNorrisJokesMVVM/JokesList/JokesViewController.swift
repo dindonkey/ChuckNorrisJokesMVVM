@@ -42,7 +42,7 @@ class JokesViewController: UIViewController {
             })
             .drive(jokesTableView.rx.items(cellIdentifier: "JokeCell", cellType: JokeTableViewCell.self)){ (_, joke, cell) in
                 cell.jokeText.text = joke.joke
-                cell.jokeImageView.sd_setImage(with: URL(string: "https://i.pinimg.com/736x/44/f0/d4/44f0d4ee189b1c046c4b524361466600--too-funny-funny-pics.jpg"), placeholderImage: UIImage(named: "SampleChuck"))
+                cell.jokeImageView.sd_setImage(with: joke.jokeImage, placeholderImage: UIImage(named: "SampleChuck"))
 
             }
             .addDisposableTo(disposeBag)
