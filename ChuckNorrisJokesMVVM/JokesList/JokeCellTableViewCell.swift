@@ -3,6 +3,7 @@ import UIKit
 class JokeTableViewCell: UITableViewCell {
 
     @IBOutlet weak var jokeText: UILabel!
+    @IBOutlet weak var jokeImageView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

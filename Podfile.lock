@@ -20,12 +20,16 @@ PODS:
   - RxCocoa (3.5.0):
     - RxSwift (~> 3.4)
   - RxSwift (3.5.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
   - Moya-ModelMapper/RxSwift
   - Moya/RxSwift
   - RxCocoa
   - RxSwift
+  - SDWebImage (~> 4.0)
 
 SPEC CHECKSUMS:
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
@@ -35,7 +39,8 @@ SPEC CHECKSUMS:
   Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
   RxCocoa: a0a09f45d0e5b48ecb6a4a7b4b4c89c88d3f633f
   RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: 55ebe3423477700999a0d98aa5a9218bf321d56f
+PODFILE CHECKSUM: a82c4df169dc4c2582a9e3de3aac0cc5c5fbdfed
 
 COCOAPODS: 1.2.1

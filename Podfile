@@ -8,6 +8,7 @@ target 'ChuckNorrisJokesMVVM' do
     pod 'RxCocoa'
     pod 'Moya/RxSwift'
     pod 'Moya-ModelMapper/RxSwift'
+    pod 'SDWebImage', '~> 4.0'
     
     target 'ChuckNorrisJokesMVVMTests' do
         inherit! :search_paths

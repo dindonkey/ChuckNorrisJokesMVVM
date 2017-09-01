@@ -69,6 +69,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="jokeImageView" destination="Xyl-dQ-dnM" id="10e-8T-2xW"/>
                                             <outlet property="jokeText" destination="Clf-bk-tRA" id="MNT-cn-Joc"/>
                                         </connections>
                                     </tableViewCell>
