@@ -50,7 +50,7 @@ class JokesViewController: UIViewController {
         jokesTableView.rx
             .modelSelected(Joke.self)
             .subscribe(onNext:  { value in
-                self.performSegue(withIdentifier: "openJokeDetail", sender: self)
+                self.performSegue(withIdentifier: "openJokeDetail", sender: value)
             })
             .disposed(by: disposeBag)
         
@@ -59,6 +59,14 @@ class JokesViewController: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "openJokeDetail" {
+            let jokeDetailViewController = segue.destination as! JokeDetailViewController
+            let joke = sender as! Joke
+            jokeDetailViewController.joke = joke
+        }
     }
     
 }
