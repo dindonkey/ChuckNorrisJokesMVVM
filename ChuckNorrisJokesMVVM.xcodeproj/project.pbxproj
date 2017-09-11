@@ -12,6 +12,7 @@
 		D0AFABF108C12C33CD6618E6 /* Pods_ChuckNorrisJokesMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8675E76E8CE706486C5389E3 /* Pods_ChuckNorrisJokesMVVMUITests.framework */; };
 		F7118DB41F21E3A100CF2383 /* jokes.json in Resources */ = {isa = PBXBuildFile; fileRef = F7118DB31F21E3A100CF2383 /* jokes.json */; };
 		F7118DB61F21E3FF00CF2383 /* jokes.json in Resources */ = {isa = PBXBuildFile; fileRef = F7118DB31F21E3A100CF2383 /* jokes.json */; };
+		F782D3741F66BC330073BD5A /* JokeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F782D3731F66BC330073BD5A /* JokeDetailViewController.swift */; };
 		F79BB3C21F5944C900B4BB7D /* UIPaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BB3C11F5944C900B4BB7D /* UIPaddingLabel.swift */; };
 		F7ADAA5F1F1796D900F95520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA5E1F1796D900F95520 /* AppDelegate.swift */; };
 		F7ADAA611F1796D900F95520 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADAA601F1796D900F95520 /* JokesViewController.swift */; };
@@ -54,6 +55,7 @@
 		8675E76E8CE706486C5389E3 /* Pods_ChuckNorrisJokesMVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckNorrisJokesMVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DEDF605FCCA56573F05934 /* Pods-ChuckNorrisJokesMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisJokesMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisJokesMVVM/Pods-ChuckNorrisJokesMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		F7118DB31F21E3A100CF2383 /* jokes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jokes.json; sourceTree = "<group>"; };
+		F782D3731F66BC330073BD5A /* JokeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeDetailViewController.swift; sourceTree = "<group>"; };
 		F79BB3C11F5944C900B4BB7D /* UIPaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPaddingLabel.swift; sourceTree = "<group>"; };
 		F7ADAA5B1F1796D900F95520 /* ChuckNorrisJokesMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorrisJokesMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ADAA5E1F1796D900F95520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,14 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		F782D3721F66BBDA0073BD5A /* Joke Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F782D3731F66BC330073BD5A /* JokeDetailViewController.swift */,
+			);
+			name = "Joke Detail";
+			sourceTree = "<group>";
+		};
 		F7ADAA521F1796D900F95520 = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +168,8 @@
 		F7ADAA5D1F1796D900F95520 /* ChuckNorrisJokesMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				F7E5BF111F1892670024562F /* JokesList */,
+				F782D3721F66BBDA0073BD5A /* Joke Detail */,
+				F7E5BF111F1892670024562F /* Jokes List */,
 				F7ADAA5E1F1796D900F95520 /* AppDelegate.swift */,
 				F7ADAA651F1796D900F95520 /* Assets.xcassets */,
 				F7ADAA6A1F1796D900F95520 /* Info.plist */,
@@ -187,7 +198,7 @@
 			path = ChuckNorrisJokesMVVMUITests;
 			sourceTree = "<group>";
 		};
-		F7E5BF111F1892670024562F /* JokesList */ = {
+		F7E5BF111F1892670024562F /* Jokes List */ = {
 			isa = PBXGroup;
 			children = (
 				F7E5BF141F191CEA0024562F /* Joke.swift */,
@@ -197,6 +208,7 @@
 				F7E5BF121F18F30F0024562F /* JokesViewModel.swift */,
 				F79BB3C11F5944C900B4BB7D /* UIPaddingLabel.swift */,
 			);
+			name = "Jokes List";
 			path = JokesList;
 			sourceTree = "<group>";
 		};
@@ -487,6 +499,7 @@
 				F79BB3C21F5944C900B4BB7D /* UIPaddingLabel.swift in Sources */,
 				F7ADAA5F1F1796D900F95520 /* AppDelegate.swift in Sources */,
 				F7E5BF151F191CEA0024562F /* Joke.swift in Sources */,
+				F782D3741F66BC330073BD5A /* JokeDetailViewController.swift in Sources */,
 				F7E5BF131F18F30F0024562F /* JokesViewModel.swift in Sources */,
 				F7ADB4921F55925700AC469B /* JokeCellTableViewCell.swift in Sources */,
 				F7E5BF171F191F310024562F /* JokesService.swift in Sources */,
